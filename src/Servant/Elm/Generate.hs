@@ -377,7 +377,7 @@ mkLetRequest indent opts request =
        , "  { verb ="
        , "      \"" ++ method ++ "\""
        , "  , headers ="
-       , "      [(\"Content-Type\", \"application/json\")]"
+       , "      []"
        , "  , url ="
        , "      " ++ url
        ]
